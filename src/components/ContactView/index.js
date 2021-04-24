@@ -11,7 +11,7 @@ const useStyles = makeStyles (() => ({
 const ContactView = props => {
   const classes = useStyles ();
   return (
-    <div id="aboutMeView">
+    <div id="contactView">
 
       <Grid
         container

@@ -1,11 +1,15 @@
-import Display from './Display'
+import Display from './Display';
+import {ThemeProvider, createMuiTheme} from '@material-ui/core';
+
+const theme = createMuiTheme ();
 
 const App = () => {
+  
   return (
-    <div>
+    <ThemeProvider theme={theme}>
       <Display />
-    </div>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
